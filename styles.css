@@ -441,3 +441,138 @@ footer h2{
   padding-bottom: 7px;
 }
 
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-section {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 40px;
+    padding-top: 50px;
+  }
+
+  .search-bar [type="text"],
+  .search-bar button,
+  .search-bar select,
+  .search-bar [type="date"],
+  .search-bar [type="number"] {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .featured {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .featured div {
+    width: 90%;
+    margin: auto;
+  }
+
+  .famous-list {
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  .fam-item {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .fam-item img {
+    width: 100%;
+  }
+
+  .history {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .old-map img {
+    width: 100%;
+    margin: auto;
+  }
+
+  .history-content {
+    width: 100%;
+  }
+
+  .highlights-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .highlight-card {
+    width: 90%;
+    margin: auto;
+  }
+
+  .price-tables {
+    flex-direction: column;
+  }
+
+  .price-tables div {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .main-about {
+    flex-direction: column;
+  }
+
+  .main-about div {
+    width: 100%;
+  }
+
+  .offer-about {
+    flex-direction: column;
+  }
+
+  .offer-list {
+    width: 100%;
+  }
+
+  .images-about {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .images-about img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-contact {
+    width: 90%;
+    margin: auto;
+  }
+
+  .destinations {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .destinations div {
+    width: 90%;
+    margin: auto;
+  }
+
+  .destinations img {
+    width: 100%;
+    height: auto;
+  }
+}
+
