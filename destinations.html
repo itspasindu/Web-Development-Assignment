@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>Travel-Ceylon</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section>
+    <div class="destinations">
+      <div>
+        <img src="src/images/colombo.jpg" alt="">
+        <h2>Colombo</h2>
+        <button onclick="colombo()">View Details</button>
+        <p id="colombo-details"></p>
+      </div>
+
+      <div>
+        <img src="src/images/ella.jpg" alt="">
+        <h2>Ella</h2>
+        <button onclick="ella()">View Details</button>
+        <p id="ella-details"></p>
+      </div>
+
+      <div>
+        <img src="src/images/kandy.jpg" alt="">
+        <h2>Kandy</h2>
+        <button onclick="kandy()">View Details</button>
+        <p id="kandy-details"></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h2>All Rights Reserved ©</h2>
+  </footer>
+</body>
+
+<script>
+  function ella(){
+    document.getElementById("ella-details").innerHTML="A picturesque hill town surrounded by tea plantations and waterfalls, Ella is known for its hiking trails like Little Adam’s Peak and the iconic Nine Arches Bridge.";
+  }
+  function kandy(){
+    document.getElementById("kandy-details").innerHTML="Nestled in the central hills, Kandy is home to the sacred Temple of the Tooth and lush botanical gardens, offering a blend of spirituality, culture, and scenic beauty.";
+  }
+  function colombo(){
+    document.getElementById("colombo-details").innerHTML="The bustling commercial capital of Sri Lanka, Colombo blends colonial architecture with modern skyscrapers, offering vibrant markets, seaside promenades, and a lively urban culture.";
+  }
+</script>
+</html>
