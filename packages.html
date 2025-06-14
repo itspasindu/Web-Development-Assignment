@@ -22,6 +22,43 @@
     </nav>
   </header>
 
+  <section class="price-cal">
+    <div class="price-gen">
+      <h1>Pricing Calculator</h1>
+
+      <label for="">Select Our Package</label>
+      <select name="packages" id="packages">
+        <option value="colombo">City Tour Packages - Classic Colombo</option>
+        <option value="kandy">City Tour Packages - Historical Kandy</option>
+        <option value="galle">City Tour Packages - Galle Heritage Tour</option>
+        <option value="ella">Adventure Packages - Ella Hiking Adventure</option>
+        <option value="kitulgala">Adventure Packages - Kitulgala White Water Rafting</option>
+        <option value="knuckles">Adventure Packages - Hiking Knuckles Range</option>
+        <option value="mirissa">Beach Holiday Packages - Relax at Mirissa</option>
+        <option value="unawatuna">Beach Holiday Packages - Unawatuna Paradise</option>
+        <option value="negombo">Beach Holiday Packages - Negombo Escape</option>
+      </select>
+      <br><br>
+      <label for="days">Select Number Of Days</label>
+      <input type="number" name="days" id="days">
+      <br><br>
+      <label for="guest">Number of Guests</label>
+      <input type="number" name="guest" id="guest">
+      <br><br>
+      <label for="">Need Additional Package?</label>
+      <select name="addPackages" id="addPackages">
+        <option value="no">No</option>
+        <option value="veg">Vegitarion Meal</option>
+        <option value="fish">Fish Meal</option>
+        <option value="chicken">Chicken Meal</option>
+      </select>
+      <br>
+      <button onclick="getBill()">Get your Bill</button>
+      <br><br>
+      <p id="result"></p>
+    </div>
+  </section>
+
 
   <section class="price-tables">
     <div>
@@ -157,6 +194,8 @@
   <footer>
     <h2>All Rights Reserved ©</h2>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

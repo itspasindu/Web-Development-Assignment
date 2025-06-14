@@ -84,7 +84,7 @@
 
 .search-bar select{
   height: 60px;
-  width: 10%;
+  width: 40%;
   /*border-radius: 10px;*/
   border-style: none;
   font-size: 20px;
@@ -442,7 +442,7 @@ footer h2{
 }
 
 
-/* Mobile responsiveness */
+
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -576,3 +576,28 @@ footer h2{
   }
 }
 
+.price-gen{
+  font-weight: 400;
+}
+
+.price-cal{
+  margin: 50px;
+}
+
+.price-gen h1{
+  font-weight: 500;
+}
+
+.price-gen button{
+  background-color: rgb(34, 34, 255);
+  height: 50px;
+  width: 170px;
+  border-style: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.price-gen input{
+  height: 40px;
+  margin-left: 10px;
+}
