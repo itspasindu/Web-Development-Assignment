@@ -138,14 +138,4 @@ function getSearch(){
         Number of Days: ${days}
         Number of Guest: ${guest}`
     }
-
-    let choose = confirm('Are you sure you want to continue?');
-
-    if(choose){
-        window.alert(result);
-    }
-    else{
-        document.getElementById('result').innerText = `Please Try Again!`;
-    }
-    
 }

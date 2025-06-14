@@ -124,6 +124,11 @@
   background-color: white;
 }
 
+.featured div:hover{
+  transform: translateY(-5px);
+  transition: transform 0.2s;
+}
+
 .featured h1{
   font-family: "Poppins", sans-serif;
   padding: 10px;
@@ -179,7 +184,7 @@
   border-radius: 10px;
   border-style: none;
   height: 40px;
-  background-color: rgb(38, 38, 255);
+  background-color: #2626ff;
   color: white;
   margin-top: 15px;
   padding: 10px;
@@ -363,7 +368,7 @@ footer h2{
   font-weight: 500;
   padding: 30px;
   width: 50%;
-  background-color: orangered;
+  background-color: #0d0dfc;
   border-radius: 10px;
   margin: auto;
 }
@@ -371,6 +376,7 @@ footer h2{
 .contact-form h1{
   font-weight: 500;
   font-size: 50px;
+  color: aqua;
 }
 
 .contact-form label{
@@ -600,4 +606,59 @@ footer h2{
 .price-gen input{
   height: 40px;
   margin-left: 10px;
+}
+
+.foods{
+  text-align: center;
+}
+
+.foods-header h1{
+  font-weight: 500;
+  font-size: 45px;
+  padding-top: 80px;
+  text-align: center;
+  margin: auto;
+}
+
+.foods-header p{
+  padding: 20px;
+}
+
+.foods-list{
+  display: flex;
+  margin-left: 70px;
+}
+
+.foods-list div{
+  width: 70%;
+  margin: 10px;
+}
+
+.foods-list img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: -80px;
+  border-style: solid;
+  border-color: #0d0dfc;
+  border-width: 10px;
+}
+
+.foods-list h2{
+  font-weight: 400;
+}
+
+.foods-card {
+  background-color: #0d0dfc;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+.foods-card p{
+  color: yellow;
+  padding-top: 10px;
 }
