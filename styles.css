@@ -321,6 +321,48 @@ footer h2{
   padding-top: 30px;
 }
 
+.main-about img{
+  width: 550px;
+  height: 600px;
+  margin-left: 50px;
+  margin-top: -100px;
+  
+}
+
+.we-are{
+  background-color: #0d0dfc;
+  color: #ffffff;
+  border-radius: 20px;
+  height: 500px;
+  margin-left: -300px;
+  z-index: -1;
+  margin-top: 200px;
+}
+
+.we-are p{
+  text-align: left;
+  padding-top: 150px;
+}
+
+.we-are h1{
+  text-align: right;
+  font-size: 65px;
+  padding-bottom: 30px;
+  margin-top: -20px;
+}
+
+.airticket{
+  height: 150px;
+  width: 350px;
+  float: right;
+  margin-top: -380px;
+  margin-right: 150px;
+  border-color: #ffffff;
+  border-style: solid;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+
 .main-about div{
   width: 50%;
   padding: 30px;
@@ -335,9 +377,24 @@ footer h2{
   font-weight: 500;
 }
 
+.offer-about h1{
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
 .offer-about{
   display: flex;
   padding: 30px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #0d0dfc;
+  margin: 20px;
+  margin-top: 150px;
+  color: black;
+}
+
+.about-support{
+  display: flex;
 }
 
 .offer-list{
@@ -371,26 +428,59 @@ footer h2{
   margin-top: 50px;
 }
 
+.travel-girl{
+  background-color: rgb(0, 255, 145);
+}
+
+.travel-girl img{
+  width: 200px;
+  height: 500px;
+  float: left;
+  padding-right: 20px;
+}
+
+.contact{
+  display: flex;
+}
+
+.contact-details{
+  padding-left: 50px;
+  margin-top: 80px;
+}
+
+.contact-details img{
+  width: 35%;
+  border-radius: 20px;
+  float: right;
+  margin-top: -400px;
+  background-color: #0dfc89;
+  padding: 50px;
+}
+
+.contact-details h1{
+  font-weight: 500;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
 .contact-form{
   font-weight: 500;
   padding: 30px;
-  width: 50%;
-  background-color: #0d0dfc;
+  width: 40%;
   border-radius: 10px;
-  margin: auto;
-}
-
-.contact-form h1{
-  font-weight: 500;
-  font-size: 50px;
-  color: aqua;
+  padding: 40px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #0d0dfc;
+  margin-left: 30px;
+  margin-top: 80px;
 }
 
 .contact-form label{
   display: block;
   margin: 10px 0 5px;
   font-weight: bold;
-  color: white;
+
 }
 
 .contact-form textarea{
@@ -589,12 +679,37 @@ footer h2{
   }
 }
 
+.price-details{
+  border-color: #0d0dfc;
+  border-style: solid;
+  padding: 20px;
+  width: 50%;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+.price-details h2{
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.price-details img{
+  width: 150px;
+  float: right;
+}
+
+.price-details p{
+  text-align: justify;
+}
+
 .price-gen{
   font-weight: 400;
+  width: 50%;
 }
 
 .price-cal{
   margin: 50px;
+  display: flex;
 }
 
 .price-gen h1{
