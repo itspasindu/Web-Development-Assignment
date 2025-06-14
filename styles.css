@@ -79,7 +79,12 @@
   border-style: none;
   font-size: 20px;
   cursor: pointer;
-  
+}
+
+.search-bar button:hover{
+  background-color: #0d0dfc;
+  border-radius: 10px;
+  color: white;
 }
 
 .search-bar select{
@@ -658,7 +663,70 @@ footer h2{
   border-radius: 20px;
 }
 
+.foods-card:hover{
+  transform: translateY(60px);
+  transition: transform 0.2s;
+}
+
+.foods-card h2{
+  color: #ffffff;
+}
+
 .foods-card p{
   color: yellow;
   padding-top: 10px;
+}
+
+.dancer-sec{
+  display: flex;
+}
+
+.dancer{
+  margin-top: 100px;
+}
+
+.dancer-details{
+  background-color: #0d0dfc;
+  height: 500px;
+  width: 800px;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 150px;
+  z-index: -1;
+}
+
+.dancer-details h1{
+  font-weight: 500;
+  font-size: 45px;
+  text-align: center;
+}
+
+.dancer-img img{
+  margin-right: -350px;
+  padding-left: 200px;
+}
+
+.dancer-img:hover{
+  transform: translateX(-50px);
+  transition: transform 0.2s;
+}
+
+.dancer-right img{
+  width: 650px;
+  margin-top: 180px;
+  margin-left: -350px;
+}
+
+.dancer-right img:hover{
+  transform: translateY(50px);
+  transition: transform 0.2s;
+}
+
+.dancer-details p{
+  font-size: 20px;
+  width: 60%;
+  text-align: justify;
+  margin-left: 150px;
+  margin-top: 60px;
 }
