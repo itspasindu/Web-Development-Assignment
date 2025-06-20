@@ -17,6 +17,7 @@
     width: 100%;
     background-color: #ffffff;
     padding: 15px 30px;
+    position: fixed;
   }
   
   nav {

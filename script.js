@@ -82,7 +82,6 @@ function getBill(){
     
 }
 
-
 function getSearch(){
     var packages = document.getElementById('packages').value;
 
