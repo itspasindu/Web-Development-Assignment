@@ -812,6 +812,21 @@ footer h2{
   border-radius: 20px;
   margin-left: 150px;
   z-index: -1;
+  animation: dancer-sec 1.5s ease-out;
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes dancer-sec{
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .dancer-details h1{
@@ -819,11 +834,34 @@ footer h2{
   font-size: 45px;
   text-align: center;
   font-family: "Edu QLD Hand", cursive;
+  animation: dancer-head 1.5s ease-out;
+}
+
+@keyframes dancer-head{
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .dancer-img img{
   margin-right: -350px;
   padding-left: 200px;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  0% {
+    transform: translateX(-75%) translateY(10%);
+  }
+  100% {
+    transform: translateX(10%) translateY(5%);
+  }
 }
 
 .dancer-img:hover{
@@ -835,6 +873,17 @@ footer h2{
   width: 650px;
   margin-top: 180px;
   margin-left: -350px;
+  animation-name: right;
+  animation-duration: 2s;
+}
+
+@keyframes right{
+  0% {
+    transform: translateX(75%) translateY(10%);
+  }
+  100% {
+    transform: translateX(10%) translateY(5%);
+  }
 }
 
 .dancer-right img:hover{
@@ -850,4 +899,16 @@ footer h2{
   margin-top: 20px;
   font-family: "Edu QLD Hand", cursive;
   text-align: center;
+  animation: dancer-p 1.5s ease-out;
+  
+}
+
+@keyframes dancer-p{
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+
+  }
 }
